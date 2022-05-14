@@ -1,0 +1,187 @@
+:root {
+  --primary-text-color: #757575;
+  --title-black-color: #212121;
+  --primary-black-color: #000000;
+  --accent-text-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --address-footer-color: rgba(255, 255, 255, 0.6);
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+/* Общие */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+
+.logo-header {
+  color: var(--primary-black-color);
+}
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+/* Header */
+.site-nav,
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav a {
+  color: var(--title-black-color);
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-text-color);
+}
+
+.auth-nav a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus,
+.auth-footer a:hover,
+.auth-footer a:focus {
+  color: var(--accent-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+address {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.street {
+  color: var(--primary-white-color);
+}
+.auth-footer a {
+  color: var(--address-footer-color);
+  text-decoration: none;
+}
+/* Other */
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+}
+
+.title {
+  color: var(--title-black-color);
+}
+
+/* MAIN PAGE */
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button-hero {
+  letter-spacing: 0.06em;
+  background-color: var(--accent-text-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/* Наши особенности */
+
+.specialty.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.specialty-description {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Чем мы занимаемся */
+.title.description,
+.title.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Наша команда */
+.section-team {
+  background-color: var(--secondary-background-color);
+}
+
+.team.title {
+  font-weight: 500;
+}
+
+.team.title,
+.team-description {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* PROJECTS */
+/* Filters */
+.button.filters {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-black-color);
+  background-color: var(--secondary-background-color);
+}
+
+.button.filters:hover,
+.button.filters:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+}
+/* Projects */
+.projects.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-description {
+  font-size: 16px;
+  line-height: 1.88;
+}
