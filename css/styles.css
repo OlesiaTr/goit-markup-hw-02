@@ -64,18 +64,24 @@ ul {
   color: var(--accent-text-color);
 }
 
+.link.current {
+  color: var(--accent-text-color);
+}
+
 /* Footer */
 .footer {
   background-color: #2f303a;
 }
 
-address {
+.address {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
-.street {
+.address a {
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 .auth-footer a {
   color: var(--address-footer-color);
@@ -91,6 +97,10 @@ address {
 
 .title {
   color: var(--title-black-color);
+}
+
+.hide {
+  display: none;
 }
 
 /* MAIN PAGE */
@@ -116,9 +126,7 @@ address {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-family: inherit;
 }
 /* Наши особенности */
 
@@ -152,11 +160,12 @@ address {
 
 .team.title,
 .team-description {
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-
+.team.title {
+  font-size: 16px;
+}
 /* PROJECTS */
 /* Filters */
 .button.filters {
@@ -182,6 +191,5 @@ address {
 }
 
 .projects-description {
-  font-size: 16px;
   line-height: 1.88;
 }
